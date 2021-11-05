@@ -11,15 +11,12 @@ In this way, your clients don't need to worry about specifying different ports e
 
 **Steps to set up this project:**
 
-1. Run Nginx reverse proxy as docker container. 
-Navigate to `nginx`, run the command `docker-compose up`. This will start the reverse proxy.
+1. Navigate to `nginx`, run the command `docker-compose up`. This will start the reverse proxy.
 
-2. Run web server `a`. 
-Navigate to `web-server-a`, run the command `docker-compose up`. This will start the web server `a`.
+2. Navigate to `web-server-a`, run the command `docker-compose up`. This will start the web server `a`.
 
 
-2. Run web server `b`. 
-Navigate to `web-server-b`, run the command `docker-compose up`. This will start the web server `b`.
+2. Navigate to `web-server-b`, run the command `docker-compose up`. This will start the web server `b`.
 
 **Steps to test the project:**
 
