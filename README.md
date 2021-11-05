@@ -1,7 +1,7 @@
 # simple-reverse-proxy
 Simple demonstration of using Nginx to act as a reverse proxy for subdomains along with port forwarding.
 
-**Example usecase:**
+## **Example usecase:**
 
 Host multiple apps on a single server at different ports. 
 
@@ -9,7 +9,7 @@ When a user wants to access a specific app, they can specify the corresponding s
 
 In this way, your clients don't need to worry about specifying different ports every time they want to access a different app made by you.
 
-**Steps to set up this project:**
+### **Steps to set up this project:**
 
 1. Navigate to `nginx`, run the command `docker-compose up`. This will start the reverse proxy.
 
@@ -18,7 +18,7 @@ In this way, your clients don't need to worry about specifying different ports e
 
 2. Navigate to `web-server-b`, run the command `docker-compose up`. This will start the web server `b`.
 
-**Steps to test the project:**
+### **Steps to test the project:**
 
 1. When a user enters `http://subdomain-a.localhost:8000`, they see the response of `web-server-a`.
 
