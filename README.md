@@ -37,4 +37,4 @@ This is because in the `nginx.conf` file, we have mentioned the rules accordingl
          }
     }
 ```
-This means that when a request comes for `subdomain-a.localhost:8000`, it is redirected by Nginx to `http://host.docker.internal:8080/`, which is where the `web-server-a` runs.
+This means that when a request comes for `subdomain-a.localhost:8000`, it is redirected by Nginx to `http://host.docker.internal:8080/`, which is where the web server `a` runs.
